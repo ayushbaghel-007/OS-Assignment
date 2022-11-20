@@ -65,3 +65,8 @@ integer is passed on the command line.
 ## References
 1. https://github.com/mattlevan/copy.c
 2. https://github.com/PRASANNA-416/CS252-OS-Project-2022
+
+## Author
+Ayush Baghel
+
+201EE113
