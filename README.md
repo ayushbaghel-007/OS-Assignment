@@ -52,6 +52,6 @@ integer is passed on the command line.
 
 ![ss1](https://user-images.githubusercontent.com/76652351/202928282-d406e4ff-48d1-4bc8-9ec7-585182bbd1e2.jpg)
 
-Referneces
+###### Referneces
 1. https://github.com/mattlevan/copy.c
 2. https://github.com/PRASANNA-416/CS252-OS-Project-2022
