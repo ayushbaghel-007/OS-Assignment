@@ -44,13 +44,18 @@ integer is passed on the command line.
 ## Results
 **Q 2.24 :**
 
++ The C program copies the contents from an existing file and paste the contents into a new file (which does not exist before executing the program).
++ The input file was sample.txt from which the contents were copied.
++ The output file was output.txt to which the copied content was pasted.
++ A strace_log file was also created in which all the system calls were logged.
+
 ![ss1](https://user-images.githubusercontent.com/76652351/202928209-3769de60-95c5-4b64-b641-36770c48bd23.jpg)
 
 ![ss2](https://user-images.githubusercontent.com/76652351/202928237-d7e1c0b2-e80c-466b-8d13-fa460335b440.jpg)
 
 **Q 3.21 :**
 
-+ This C program creates child process and this child process is responsible for printing the Collatz Conjecture sequence .
++ The C program creates child process and this child process is responsible for printing the Collatz Conjecture sequence .
 + In linux os fork() system call is used to create child process.
 + Once the parent process calls fork() system call then parents wait for child process to complete the work assigned by calling wait(NULL) system call.
 + This code is applicable only for non negative integers as input.
