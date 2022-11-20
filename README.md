@@ -11,3 +11,6 @@ Once you have correctly designed and tested the program, if you used a system th
 **macOS: sudo dtruss ./FileCopy**
 
 Since Windows systems do not provide such a tool, you will have to trace through the Windows version of this program using a debugger.
+
+[Q 3.21](https://github.com/ayushbaghel-007/OS-Assignment/tree/main/Q%203.21)
+
