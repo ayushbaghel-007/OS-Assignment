@@ -1,18 +1,12 @@
 # OS-Assignment
 ## Questions
-**Q 2.24)**
 
-![Q1](https://user-images.githubusercontent.com/76652351/202927106-236ca208-c5b4-486e-9d6b-ef00b3d6d134.jpg)
+In Section 2.3, we described a program that copies the contents of one file to a destination file. This program works by first prompting the user for the name of the source and destination files. Write this program using either the POSIX or Windows API. Be sure to include all necessary error checking, including ensuring that the source file exists.
 
-**Q 3.21)**
+Once you have correctly designed and tested the program, if you used a system that supports it, run the program using a utility that traces system calls. Linux systems provide the strace utility, and macOS systems use the dtruss command. (The dtruss command, which actually is a front end to dtrace, requires admin privileges, so it must be run using sudo.) These tools can be used as follows (assume that the name of the executable file is FileCopy:
 
-![Q2](https://user-images.githubusercontent.com/76652351/202927132-793282f9-8067-4e14-92aa-5ee7bed52be3.jpg)
+Linux: strace ./FileCopy
 
-## Requirements
-1. Windows Subsystem for Linux (WSL)
-2. GCC
-3. VS Code
+macOS: sudo dtruss ./FileCopy
 
-## Results
-**Q 2.24)**
-
+Since Windows systems do not provide such a tool, you will have to trace through the Windows version of this program using a debugger.
