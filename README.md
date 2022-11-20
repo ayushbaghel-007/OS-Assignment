@@ -36,3 +36,18 @@ the wait() call to wait for the child process to complete before exiting
 the program. Perform necessary error checking to ensure that a positive
 integer is passed on the command line.
 
+## Requirements
+1. Windows Subsystem for Linux (WSL)
+2. GCC
+3. VS Code
+
+## Results
+**Q 2.24**
+
+![ss1](https://user-images.githubusercontent.com/76652351/202928209-3769de60-95c5-4b64-b641-36770c48bd23.jpg)
+
+![ss2](https://user-images.githubusercontent.com/76652351/202928237-d7e1c0b2-e80c-466b-8d13-fa460335b440.jpg)
+
+**Q 3.21**
+
+![ss1](https://user-images.githubusercontent.com/76652351/202928282-d406e4ff-48d1-4bc8-9ec7-585182bbd1e2.jpg)
