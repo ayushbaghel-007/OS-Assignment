@@ -1,7 +1,7 @@
 # OS-Assignment
 ## Questions
-Q 2.24
-we described a program that copies the contents of one file
+**Q 2.24**
+We described a program that copies the contents of one file
 to a destination file. This program works by first prompting the user for
 the name of the source and destination files. Write this program using
 either the POSIX or Windows API. Be sure to include all necessary error
