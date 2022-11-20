@@ -45,8 +45,8 @@ integer is passed on the command line.
 **Q 2.24 :**
 
 + The C program copies the contents from an existing file and paste the contents into a new file (which does not exist before executing the program).
-+ The input file was sample.txt from which the contents were copied.
-+ The output file was output.txt to which the copied content was pasted.
++ The input file is sample.txt from which the contents were copied.
++ The output file is output.txt to which the copied content was pasted.
 + A [strace_log](https://github.com/ayushbaghel-007/OS-Assignment/blob/main/Q%202.24/strace_log) file was also created in which all the system calls were logged.
 
 ![ss1](https://user-images.githubusercontent.com/76652351/202928209-3769de60-95c5-4b64-b641-36770c48bd23.jpg)
