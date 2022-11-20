@@ -55,7 +55,7 @@ integer is passed on the command line.
 
 **Q 3.21 :**
 
-+ The C program creates child process and this child process is responsible for printing the Collatz Conjecture sequence .
++ The [C program](https://github.com/ayushbaghel-007/OS-Assignment/blob/main/Q%203.21/sequence.c) creates child process and this child process is responsible for printing the Collatz Conjecture sequence .
 + In linux os fork() system call is used to create child process.
 + Once the parent process calls fork() system call then parents wait for child process to complete the work assigned by calling wait(NULL) system call.
 + This code is applicable only for non negative integers as input.
