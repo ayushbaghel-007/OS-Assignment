@@ -103,7 +103,7 @@ void PromptUser ()
         }
       else
         {
-          printf ("File already exists! Please enter a different namme.\n");
+          printf ("File already exists! Please enter a different name.\n");
           continue;
         }
     }
